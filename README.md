@@ -15,6 +15,7 @@ This project demonstrates how to create custom widgets using both functions and 
    
 
 **You also need to have an editor that supports Flutter development, such as Visual Studio Code or Android Studio**.
+![Screenshot](https://github.com/felexkuria/Dicey/blob/main/dicey/images/image%20(7).png)
 
 
 
