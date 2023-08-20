@@ -7,11 +7,12 @@ This is a demo project that shows how to use Flutter functions and widgets to cr
 
 ## Features
 This project demonstrates how to create custom widgets using both functions and classes in Flutter.
-    - It also explains the difference between stateless and stateful widgets in Flutter and how they affect the widget tree and the app performance.
-    - It provides examples of common widgets in Flutter, such as text, icons, buttons, containers, rows, columns, etc.
-    - It uses a simple counter app as a case study to show how to use stateful widgets to manage the app state and update the UI.
-Installation
+   
 - To run this project, you need to have Flutter SDK installed on your machine. You can follow the official Flutter installation guide to set up your environment.
+- It also explains the difference between stateless and stateful widgets in Flutter and how they affect the widget tree and the app performance.
+- It provides examples of common widgets in Flutter, such as text, icons, buttons, containers, rows, columns, etc
+-  It uses a simple counter app as a case study to show how to use stateful widgets to manage the app state and update the UI.Installation
+   
 
 **You also need to have an editor that supports Flutter development, such as Visual Studio Code or Android Studio**.
 
