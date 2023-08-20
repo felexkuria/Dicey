@@ -2,16 +2,17 @@ import 'package:flutter/material.dart';
 
 class TextTemplate extends StatelessWidget {
   const TextTemplate({
-    String? text,
+    required this.text,
     super.key,
   });
+  final String text;
 
   @override
   Widget build(BuildContext context) {
-    return const Text(
-      "text",
-      style: TextStyle(
-        fontSize: 25,
+    return Text(
+      text,
+      style: const TextStyle(
+        fontSize: 28,
         color: Colors.black,
       ),
     );

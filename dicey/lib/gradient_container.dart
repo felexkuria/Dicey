@@ -1,24 +1,23 @@
-import 'package:dicey/texttemplate.dart';
+import 'package:dicey/roll_dice.dart';
 import 'package:flutter/material.dart';
 
 class GradientContainer extends StatelessWidget {
-  const GradientContainer({key}) : super(key: key);
+  const GradientContainer(this._list, {key}) : super(key: key);
+  final List<Color> _list;
 
+  
   @override
   Widget build(context) {
     return Container(
-      decoration: const BoxDecoration(
+      decoration: BoxDecoration(
         gradient: LinearGradient(
           begin: Alignment.topLeft,
           end: Alignment.bottomRight,
-          colors: [
-            Color.fromARGB(39, 101, 103, 104),
-            Color.fromARGB(1000, 25, 195, 125),
-          ],
+          colors: _list,
         ),
       ),
       child: const Center(
-        child: TextTemplate(),
+        child: RollDice(),
       ),
     );
   }
